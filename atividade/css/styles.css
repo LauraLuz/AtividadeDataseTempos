@@ -7,3 +7,10 @@
     font-weight: bold;
 
 }
+
+#imgCarro{
+    display: none;
+    margin: auto;
+    height: 250px;
+    padding: 10px;
+}
