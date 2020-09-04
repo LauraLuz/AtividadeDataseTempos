@@ -1,29 +1,31 @@
-
-
+// Exercicio 1
+// Exercicio 2
+// Exercicio 3
 // Exercicio 4
+
 
 function estiloClassico() {
     document.getElementById("declaracao").style.fontStyle = "italic";
-    document.getElementById("declaracao").style.color = "blue";
-    document.getElementById("declaracao").style.backgroundColor = "blue";
+    document.getElementById("declaracao").style.color = "#663500";
+    document.getElementById("declaracao").style.backgroundColor = "#ffe6cc";
 }
 
 function estiloModerno() {
     document.getElementById("declaracao").style.fontStyle = "oblique";
-    document.getElementById("declaracao").style.color = "blue";
-    document.getElementById("declaracao").style.backgroundColor = "blue";
+    document.getElementById("declaracao").style.color = "#e60073";
+    document.getElementById("declaracao").style.backgroundColor = "#cc99ff";
 
 }
 
 function estiloEsporte() {
     document.getElementById("declaracao").style.fontStyle = "normal";
-    document.getElementById("declaracao").style.color = "blue";
-    document.getElementById("declaracao").style.backgroundColor = "blue";
+    document.getElementById("declaracao").style.color = "#4dff4d";
+    document.getElementById("declaracao").style.backgroundColor = "#008000";
 
 }
 
 // Exercicio 5
-document.getElementById('selectCarro').onclick = function(){
+document.getElementById('selectCarro').onclick = function () {
     var carro = document.getElementById('listaCarros')
     var img = document.getElementById('imgCarro')
 
@@ -47,7 +49,7 @@ document.getElementById('selectCarro').onclick = function(){
         case "5":
             img.style.display = "block"
             img.src = "./img/Jaguar-F-Type.jpg"
-            break;    
+            break;
         case "6":
             img.style.display = "block"
             img.src = "./img/Land-Rover-Defender.jpg"
